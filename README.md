@@ -1,28 +1,28 @@
-# 🩺 Chatbot Kesehatan Gemini
+# 🩺 Gemini Health Chatbot
 
-Chatbot Kesehatan Gemini adalah aplikasi berbasis **Streamlit** yang memanfaatkan **Google Gemini (via LangChain)** untuk memberikan informasi dan edukasi seputar **kesehatan umum, gizi, olahraga, dan kesehatan mental**.  
-Chatbot ini **tidak memberikan diagnosis medis**, namun membantu pengguna memahami informasi kesehatan secara mudah dan santai.
+**Gemini Health Chatbot** is a **Streamlit-based** application that uses **Google Gemini (via LangChain)** to provide educational and informative responses about **general health, nutrition, fitness, and mental well-being**.  
+This chatbot **does not provide medical diagnoses**, but it helps users understand health-related topics in a clear and conversational way.
 
 ---
 
 ## 🚀 Demo
-Kamu bisa menjalankan chatbot ini secara lokal atau click link berikut.
+You can run this chatbot locally or deploy it online (e.g., on [Streamlit Cloud](https://streamlit.io/cloud) or [Hugging Face Spaces](https://huggingface.co/spaces)).
 
 ---
 
-## 🧠 Fitur Utama
+## 🧠 Key Features
 
-| Fitur | Deskripsi |
-|-------|------------|
-| 🩺 **Fokus Kesehatan** | Hanya menjawab pertanyaan terkait kesehatan, gizi, olahraga, dan mental health. |
-| 💬 **Chat Interaktif** | Antarmuka seperti ruang konsultasi dokter virtual dengan riwayat percakapan. |
-| 🔒 **Keamanan API Key** | API key tidak disimpan di server, hanya di session pengguna. |
-| 🧭 **Panduan API Key Terintegrasi** | Panduan langkah demi langkah untuk mendapatkan Gemini API key langsung dari aplikasi. |
-| 🎨 **Desain Modern** | Tampilan bersih dan responsif dengan emoji dan warna yang ramah pengguna. |
+| Feature | Description |
+|----------|-------------|
+| 🩺 **Health-Focused** | Answers only questions related to health, nutrition, fitness, and mental health. |
+| 💬 **Interactive Chat** | Conversational interface with message history like a virtual consultation. |
+| 🔒 **Secure API Key** | The API key is never stored on the server — it stays in the user session. |
+| 🧭 **Built-in API Key Guide** | Step-by-step instructions to obtain your Gemini API key directly in the app. |
+| 🎨 **Modern Design** | Clean, responsive, and friendly UI with emojis and soft color palette. |
 
 ---
 
-## 🧩 Teknologi yang Digunakan
+## 🧩 Tech Stack
 
 - [Python 3.9+](https://www.python.org/)
 - [Streamlit](https://streamlit.io/)
@@ -31,9 +31,9 @@ Kamu bisa menjalankan chatbot ini secara lokal atau click link berikut.
 
 ---
 
-## ⚙️ Instalasi
+## ⚙️ Installation
 
-### 1️⃣ Clone repositori ini
+### 1️⃣ Clone this repository
 ```bash
-git clone https://github.com/username/chatbot-kesehatan-gemini.git
-cd chatbot-kesehatan-gemini
+git clone https://github.com/username/gemini-health-chatbot.git
+cd gemini-health-chatbot
