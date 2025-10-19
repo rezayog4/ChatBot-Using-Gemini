@@ -2,6 +2,6 @@ streamlit==1.38.0
 langchain==0.2.16
 langchain-core==0.2.38
 langchain-google-genai==1.0.5
-google-generativeai==0.7.2
+google-generativeai==0.5.4
 protobuf==4.25.3
 tqdm==4.66.5
